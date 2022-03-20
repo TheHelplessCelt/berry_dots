@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# ~/.xprofile
+
+sxhkd -c $HOME/.config/berry/sxhkdrc &
+picom -b &
+hsetroot -solid "#628395"
+#feh --bg-fill $HOME/Pictures/Wallpapers/2xOZPQ.jpg &
+#feh --bg-fill $HOME/Pictures/Wallpapers/minimalistic/dark-cat-rosewater.png &
+polybar main_bar &

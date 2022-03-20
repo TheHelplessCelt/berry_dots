@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+# Set decoration geometry
+berryc border_width       10
+berryc inner_border_width 0
+berryc title_height       0
+berryc top_gap            45
+
+# Set decoration colors
+berryc focus_color         ffcdb2
+berryc unfocus_color       3c3d3d
+berryc inner_focus_color   ffcdb2
+berryc inner_unfocus_color 3c3d3d
+berryc text_focus_color    daffef
+berryc text_unfocus_color  9bc1bc
+
+# Other options
+berryc smart_place "true"
+berryc draw_text   "true"
+berryc edge_lock   "true"
+berryc set_font    "IBM Plex Mono Regular"
